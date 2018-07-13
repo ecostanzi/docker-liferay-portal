@@ -1,4 +1,4 @@
-FROM mdelapenya/liferay-portal:7-ce-ga5-tomcat-hsql
+FROM mdelapenya/liferay-portal:7-ce-ga6-tomcat-hsql
 MAINTAINER Antonio Musarra <antonio.musarra@gmail.com>
 
 COPY ./configs/portal-ext.properties $LIFERAY_CONFIG_DIR/

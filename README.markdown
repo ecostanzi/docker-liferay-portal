@@ -1,4 +1,4 @@
-# Liferay 7 Community Edition GA5 Docker Compose project
+# Liferay 7 Community Edition GA6 Docker Compose project
 On October 23, 2017, [Liferay GA5 was released](https://community.liferay.com/news/liferay-portal-7-0-ce-ga5-release/). The great news was the return of the cluster.
 
 This repository contains a [Docker Compose](https://docs.docker.com/compose/overview/) project that allows you to get within a few minutes a Liferay cluster composed of two working nodes.
@@ -6,8 +6,8 @@ This repository contains a [Docker Compose](https://docs.docker.com/compose/over
 This Docker Compose contains this services:
 
 1. **lb-haproxy**: HA Proxy as Load Balancer
-2. **liferay-portal-node-1**: Liferay 7 GA5 (with cluster support) node 1
-3. **liferay-portal-node-2**: Liferay 7 GA5 (with cluster support) node 2
+2. **liferay-portal-node-1**: Liferay 7 GA6 (with cluster support) node 1
+3. **liferay-portal-node-2**: Liferay 7 GA6 (with cluster support) node 2
 4. **postgres**: PostgreSQL 10 database
 5. **es-node-1** and **es-node-2**: Elasticsearch Cluster nodes
 
